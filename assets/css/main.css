@@ -306,9 +306,13 @@ input[type="button"] {
     border-color: #888;
     outline: 0; }
 
+body {
+  height: 100vh;
+  overflow-y: hidden; }
+
 .container {
   max-width: 924px;
-  margin: 120px auto; }
+  margin: 120px auto 20px; }
   .container .row {
     display: -webkit-box;
     display: -webkit-flex;
@@ -354,4 +358,13 @@ input[type="button"] {
       .container .row .hvr-glow:hover, .container .row .hvr-glow:focus, .container .row .hvr-glow:active {
         box-shadow: 0 0 8px #40a6ff; }
 
+.footer {
+  height: 31px;
+  width: 111px;
+  background-image: url(../img/footer.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: transparent;
+  margin: 0 auto;
+  padding-top: 50px; }
 /*# sourceMappingURL=main.css.map */
