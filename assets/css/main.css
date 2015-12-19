@@ -181,7 +181,8 @@ th {
   background-repeat: no-repeat;
   background-position: center center;
   height: 180px;
-  width: 214px; }
+  width: 214px;
+  border-radius: 5px; }
 
 body {
   background-color: #ddd;
@@ -322,8 +323,7 @@ body {
     .container .row .box {
       height: 180px;
       width: 214px;
-      margin-right: 20px;
-      border-radius: 5px; }
+      margin-right: 20px; }
       .container .row .box:hover, .container .row .box:focus {
         cursor: pointer; }
       .container .row .box .gmail {
@@ -359,12 +359,13 @@ body {
         box-shadow: 0 0 8px #40a6ff; }
 
 .footer {
-  height: 31px;
-  width: 111px;
+  height: 25px;
+  width: 86px;
   background-image: url(../img/footer.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-color: transparent;
   margin: 0 auto;
   padding-top: 50px; }
+
 /*# sourceMappingURL=main.css.map */
