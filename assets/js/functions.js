@@ -8,9 +8,6 @@ $( document ).ready(function() {
   $.ajax({
     url : 'https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&q=http%3A%2F%2Fwww.google.com%2Ftrends%2Fhottrends%2Fatom%2Ffeed%3Fpn%3Dp3',
     type: 'GET',
-    beforeSend: function (request) {
-                request.setRequestHeader("Access-Control-Allow-Origin", "*");
-    },
     success: function(data){
         var datadict = JSON.parse(data);
         var entries = datadict.responseData.feed.entries;
