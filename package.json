@@ -1,0 +1,31 @@
+{
+  "name": "startpage",
+  "version": "1.0.0",
+  "description": "A start page for browsers.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aravindballa/startpage.git"
+  },
+  "keywords": [
+    "startpage",
+    "new",
+    "tab"
+  ],
+  "author": "Aravind Balla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aravindballa/startpage/issues"
+  },
+  "homepage": "https://github.com/aravindballa/startpage#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.1",
+    "google-trends-api": "^3.0.1"
+  }
+}
